@@ -35,5 +35,6 @@ EOF
 
 # Upgrade all installed packages incl. kernel and kernel headers
 apt-get -y dist-upgrade;
+apt-get -y install qemu-guest-agent
 reboot;
 sleep 60;
